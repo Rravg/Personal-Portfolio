@@ -1,0 +1,20 @@
+/* Mobile Size  */
+.App {
+  padding-top: 32px;
+  max-width: 2500px;
+  margin: auto;
+}
+
+/* Tablet Size  */
+@media (min-width: 768px) {
+  .App {
+    padding-top: 64px;
+  }
+}
+
+/* Desktop Size  */
+@media (min-width: 1440px) {
+  .App {
+    padding-top: 64px;
+  }
+}
