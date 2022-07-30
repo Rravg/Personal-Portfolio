@@ -3,10 +3,10 @@ import styles from "./styles/Detail.module.css";
 import { useEffect } from "react";
 import { useParams } from "react-router";
 import SectionThree from "../homepage/SectionThree";
-import Manage from "./Manage";
-import Bookmark from "./Bookmark";
-import Insure from "./Insure";
-import Fylo from "./Fylo";
+import Movies from "./Movies";
+import Todo from "./Todo";
+import Blog from "./Blog";
+import Shortly from "./Shortly";
 
 export default function Detail(): JSX.Element {
   let { id } = useParams();
@@ -17,10 +17,10 @@ export default function Detail(): JSX.Element {
 
   return (
     <main className={styles.main}>
-      {id === "manage" && <Manage />}
-      {id === "bookmark" && <Bookmark />}
-      {id === "insure" && <Insure />}
-      {id === "fylo" && <Fylo />}
+      {id === "movies" && <Movies />}
+      {id === "todo" && <Todo />}
+      {id === "blog" && <Blog />}
+      {id === "shortly" && <Shortly />}
       <SectionThree />
     </main>
   );

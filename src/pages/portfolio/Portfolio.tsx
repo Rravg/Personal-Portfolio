@@ -3,21 +3,21 @@ import { useEffect } from "react";
 import SectionThree from "../homepage/SectionThree";
 import Project from "./Project";
 
-import manageMobil from "../../images/portfolio/mobile/image-portfolio-manage@2x.jpg";
-import manageTablet from "../../images/portfolio/tablet/image-portfolio-manage@2x.jpg";
-import manageDesktop from "../../images/portfolio/desktop/image-portfolio-manage@2x.jpg";
+import moviesMobil from "../../images/portfolio/mobile/image-portfolio-movies-reviews@2x.png";
+import moviesTablet from "../../images/portfolio/tablet/image-portfolio-movies-reviews@2x.png";
+import moviesDesktop from "../../images/portfolio/desktop/image-portfolio-movies-reviews@2x.png";
 
-import bookmarkMobil from "../../images/portfolio/mobile/image-portfolio-bookmark@2x.jpg";
-import bookmarkTablet from "../../images/portfolio/tablet/image-portfolio-bookmark@2x.jpg";
-import bookmarkDesktop from "../../images/portfolio/desktop/image-portfolio-bookmark@2x.jpg";
+import todoMobil from "../../images/portfolio/mobile/image-portfolio-todo-app@2x.png";
+import todoTablet from "../../images/portfolio/tablet/image-portfolio-todo-app@2x.png";
+import todoDesktop from "../../images/portfolio/desktop/image-portfolio-todo-app@2x.png";
 
-import insureMobil from "../../images/portfolio/mobile/image-portfolio-insure@2x.jpg";
-import insureTablet from "../../images/portfolio/tablet/image-portfolio-insure@2x.jpg";
-import insureDesktop from "../../images/portfolio/desktop/image-portfolio-insure@2x.jpg";
+import blogMobil from "../../images/portfolio/mobile/image-portfolio-blog-app@2x.png";
+import blogTablet from "../../images/portfolio/tablet/image-portfolio-blog-app@2x.png";
+import blogDesktop from "../../images/portfolio/desktop/image-portfolio-blog-app@2x.png";
 
-import fyloMobil from "../../images/portfolio/mobile/image-portfolio-fylo@2x.jpg";
-import fyloTablet from "../../images/portfolio/tablet/image-portfolio-fylo@2x.jpg";
-import fyloDesktop from "../../images/portfolio/desktop/image-portfolio-fylo@2x.jpg";
+import urlMobil from "../../images/portfolio/mobile/image-portfolio-url-shortening@2x.png";
+import urlTablet from "../../images/portfolio/tablet/image-portfolio-url-shortening@2x.png";
+import urlDesktop from "../../images/portfolio/desktop/image-portfolio-url-shortening@2x.png";
 
 export default function Portfolio(): JSX.Element {
   useEffect(() => {
@@ -27,40 +27,36 @@ export default function Portfolio(): JSX.Element {
   return (
     <main className={styles.main}>
       <Project.Right
-        title="Manage"
+        title="Movies Review App"
         description="
-      This project required me to build a fully responsive landing page to the designs provided. 
-      I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity,
-      such as the testimonial slider.
-      "
-        screenshots={[manageMobil, manageTablet, manageDesktop]}
-        param="manage"
+          This project required me to build a FullStack application for a MongoDB sample Database.
+          I used React TypeScript, along with Bootstrap for the areas that required interactivity."
+        screenshots={[moviesMobil, moviesTablet, moviesDesktop]}
+        param="movies"
       />
       <Project.Left
-        title="Bookmark"
+        title="Todo App"
         description="
-        This project required me to build a fully responsive landing page to the designs provided.
-        I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity,
-        such as the features section."
-        screenshots={[bookmarkMobil, bookmarkTablet, bookmarkDesktop]}
-        param="bookmark"
+          This project is a classic React application I incorporated the style and theme.
+          I used React, along with CSS and Flexbox."
+        screenshots={[todoMobil, todoTablet, todoDesktop]}
+        param="todo"
       />
       <Project.Right
-        title="Insure"
+        title="Blog App"
         description="
-        This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page.
-        The only JavaScript this project required was to enable the toggling of the mobile navigation.
-      "
-        screenshots={[insureMobil, insureTablet, insureDesktop]}
-        param="insure"
+          This was a small FullStack project which consisted of HTMl, CSS and Vanilla JavaScript.
+          The project follows the Model Views Controller design patter to serve the static files."
+        screenshots={[blogMobil, blogTablet, blogDesktop]}
+        param="blog"
       />
       <Project.Left
-        title="Fylo"
+        title="URL Shortening API application"
         description="
-        This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive.
-         I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes."
-        screenshots={[fyloMobil, fyloTablet, fyloDesktop]}
-        param="fylo"
+          This project was built using React TypeScript and pure CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive.
+          I took a mobile-frist approach and used modern CSS lke Flexbox for layout purposes."
+        screenshots={[urlMobil, urlTablet, urlDesktop]}
+        param="shortly"
       />
       <SectionThree />
     </main>

@@ -5,8 +5,10 @@
   font-family: "Public Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 13px;
-  line-height: 30px;
+  /* font-size: 13px;
+  line-height: 30px; */
+  font-size: 0.8125rem;
+  line-height: 1.875rem;
 
   mix-blend-mode: normal;
   color: hsla(245, 10%, 22%, 0.8);
@@ -26,8 +28,10 @@
   font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 30px;
+  /* font-size: 13px;
+  line-height: 30px; */
+  font-size: 0.8125rem;
+  line-height: 1.875rem;
   color: var(--text-color-normal);
 }
 
@@ -86,8 +90,10 @@ textarea:focus {
   font-family: "Public Sans";
   font-style: italic;
   font-weight: 700;
-  font-size: 10px;
-  line-height: 12px;
+  /* font-size: 10px;
+  line-height: 12px; */
+  font-size: 0.625rem;
+  line-height: 0.75rem;
 
   color: var(--color-error);
 

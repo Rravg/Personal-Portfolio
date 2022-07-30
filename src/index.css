@@ -80,8 +80,9 @@ svg {
   font-family: "Ibarra Real Nova";
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
+  /* font-size: 50px; */
+  font-size: 3.125rem;
+  line-height: 3.125rem;
   letter-spacing: -0.45px;
 
   color: #33323d;
@@ -93,8 +94,10 @@ svg {
   font-family: "Ibarra Real Nova";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 42px;
+  /* font-size: 40px;
+  line-height: 42px; */
+  font-size: 2.5rem;
+  line-height: 2.625rem;
   letter-spacing: -0.36px;
 
   color: #33323d;
@@ -105,8 +108,10 @@ svg {
   font-family: "Ibarra Real Nova";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 36px;
+  /* font-size: 32px;
+  line-height: 36px; */
+  font-size: 2rem;
+  line-height: 2.25rem;
   letter-spacing: -0.29px;
 
   color: #33323d;
@@ -116,8 +121,10 @@ svg {
   font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
+  /* font-size: 16px;
+  line-height: 30px; */
+  font-size: 1rem;
+  line-height: 1.875rem;
 
   color: #33323d;
 }
@@ -126,8 +133,10 @@ svg {
   font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 30px;
+  /* font-size: 15px;
+  line-height: 30px; */
+  font-size: 0.9375rem;
+  line-height: 1.875rem;
 
   color: #33323d;
 }
@@ -140,11 +149,14 @@ svg {
   padding-right: var(--mobile-hor-padding);
 
   position: relative;
-  
 }
 
 /* Tablet Size  */
 @media (min-width: 768px) {
+  :root {
+    font-size: 18px;
+  }
+
   .container {
     padding-left: var(--tablet-hor-padding);
     padding-right: var(--tablet-hor-padding);
@@ -153,6 +165,10 @@ svg {
 
 /* Desktop Size  */
 @media (min-width: 1440px) {
+  :root {
+    font-size: 22px;
+  }
+
   .container {
     padding-left: var(--desktop-hor-padding);
     padding-right: var(--desktop-hor-padding);

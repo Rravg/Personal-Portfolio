@@ -1,4 +1,3 @@
-import { useMediaQuery } from "react-responsive";
 import SecondaryButton from "../../components/SecondaryButton";
 import styles from "./styles/Project.module.css";
 

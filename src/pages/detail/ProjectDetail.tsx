@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import SecondaryButton from "../../components/SecondaryButton";
+// import SecondaryButton from "../../components/SecondaryButton";
 import Navigation from "./Navigation";
 import styles from "./styles/ProjectDetail.module.css";
 
@@ -14,6 +14,7 @@ interface ProjectDetailProps {
   preview2: string[];
   next: string;
   previous: string;
+  linkToWebsite: string;
 }
 
 export default function ProjectDetail({
@@ -27,6 +28,7 @@ export default function ProjectDetail({
   preview2,
   next,
   previous,
+  linkToWebsite,
 }: ProjectDetailProps): JSX.Element {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -75,7 +77,10 @@ export default function ProjectDetail({
                 }
               })}
             </p>
-            <SecondaryButton text="visit website" href="#" />
+            <a href={linkToWebsite} className={styles.anchor}>
+              <button className={styles.button}>visit website</button>
+            </a>
+            {/* <SecondaryButton text="visit website" href={linkToWebsite} /> */}
           </div>
 
           {/* right container */}
