@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Personal-Portfolio/static/css/main.4f131944.css",
+    "main.js": "/Personal-Portfolio/static/js/main.128b6fef.js",
+    "static/js/787.fb771931.chunk.js": "/Personal-Portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/image-movies-reviews-hero@2x.png": "/Personal-Portfolio/static/media/image-movies-reviews-hero@2x.39925e9c7413035be9ae.png",
+    "static/media/image-blog-app-hero@2x.png": "/Personal-Portfolio/static/media/image-blog-app-hero@2x.582c289939de090043c5.png",
+    "static/media/image-portfolio-movies-reviews@2x.png": "/Personal-Portfolio/static/media/image-portfolio-movies-reviews@2x.d6dcac6affa23d028dc9.png",
+    "static/media/image-movies-reviews-preview-2@2x.png": "/Personal-Portfolio/static/media/image-movies-reviews-preview-2@2x.444eff2aa1e4cd59e517.png",
+    "static/media/image-movies-reviews-preview-1@2x.png": "/Personal-Portfolio/static/media/image-movies-reviews-preview-1@2x.d863483e4423b975ba4d.png",
+    "static/media/image-blog-app-preview-2@2x.png": "/Personal-Portfolio/static/media/image-blog-app-preview-2@2x.01d16c552a134436c11a.png",
+    "static/media/image-portfolio-blog-app@2x.png": "/Personal-Portfolio/static/media/image-portfolio-blog-app@2x.fbf1f12c4bb9478b968d.png",
+    "static/media/image-todo-app-hero@2x.png": "/Personal-Portfolio/static/media/image-todo-app-hero@2x.b58e3e35cd6f72e4b9db.png",
+    "static/media/image-blog-app-preview-1@2x.png": "/Personal-Portfolio/static/media/image-blog-app-preview-1@2x.a557ed07e13ad3b0c458.png",
+    "static/media/image-homepage-profile@2x.jpg": "/Personal-Portfolio/static/media/image-homepage-profile@2x.26cf727a48493b03a974.jpg",
+    "static/media/image-todo-app-preview-2@2x.png": "/Personal-Portfolio/static/media/image-todo-app-preview-2@2x.66b98e13279b0a5f00b3.png",
+    "static/media/image-portfolio-todo-app@2x.png": "/Personal-Portfolio/static/media/image-portfolio-todo-app@2x.ec8eb2d2cd6b8ec8197e.png",
+    "static/media/image-todo-app-preview-1@2x.png": "/Personal-Portfolio/static/media/image-todo-app-preview-1@2x.a1bb4a71a38e2561268d.png",
+    "static/media/image-url-shortening-hero@2x.png": "/Personal-Portfolio/static/media/image-url-shortening-hero@2x.a58cd30f12a8eafadfad.png",
+    "static/media/image-url-shortening-preview-2@2x.png": "/Personal-Portfolio/static/media/image-url-shortening-preview-2@2x.2bc84cd8b978a8df5d4f.png",
+    "static/media/image-url-shortening-preview-1@2x.png": "/Personal-Portfolio/static/media/image-url-shortening-preview-1@2x.c2d69239377dc2f94c61.png",
+    "static/media/image-homepage-hero@2x.jpg": "/Personal-Portfolio/static/media/image-homepage-hero@2x.0d83d4b9158321b8d1e2.jpg",
+    "static/media/image-portfolio-url-shortening@2x.png": "/Personal-Portfolio/static/media/image-portfolio-url-shortening@2x.8aade883e1dbe51e981e.png",
+    "index.html": "/Personal-Portfolio/index.html",
+    "static/media/github.svg": "/Personal-Portfolio/static/media/github.3880ceac2a12439cf8b79a89aeeed480.svg",
+    "static/media/twitter.svg": "/Personal-Portfolio/static/media/twitter.7df99bf5a1458bd6b8d8e5ae05766b88.svg",
+    "static/media/linkedin.svg": "/Personal-Portfolio/static/media/linkedin.74f016513d1804e5edc75b0be0c71bfd.svg",
+    "static/media/close.svg": "/Personal-Portfolio/static/media/close.6229efc8110c5463c2d09a4275fd6db7.svg",
+    "static/media/down-arrows.svg": "/Personal-Portfolio/static/media/down-arrows.2bd23bfb7742408a56d78e5cd37f9f3b.svg",
+    "static/media/logo.svg": "/Personal-Portfolio/static/media/logo.6b2775f27638e19c166d604dbba6f59d.svg",
+    "static/media/hamburger.svg": "/Personal-Portfolio/static/media/hamburger.15a29eb27a8d537770888ab3e0886c52.svg",
+    "static/media/arrow-left.svg": "/Personal-Portfolio/static/media/arrow-left.a89e4de1cc043b26dac31bbd843bb626.svg",
+    "static/media/arrow-right.svg": "/Personal-Portfolio/static/media/arrow-right.aec1b6f966bfbb1a22ccd01ed94a4c4c.svg",
+    "main.4f131944.css.map": "/Personal-Portfolio/static/css/main.4f131944.css.map",
+    "main.128b6fef.js.map": "/Personal-Portfolio/static/js/main.128b6fef.js.map",
+    "787.fb771931.chunk.js.map": "/Personal-Portfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f131944.css",
+    "static/js/main.128b6fef.js"
+  ]
+}
